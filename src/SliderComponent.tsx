@@ -34,6 +34,7 @@ export default function SliderComponent() {
           background: "none",
           position: "absolute",
           top: "50%",
+
         }}
         onClick={() => slider?.current?.slickPrev()}
       >
@@ -50,7 +51,7 @@ export default function SliderComponent() {
           background: "none",
           position: "absolute",
           top: "50%",
-          left: "95%",
+          right: "0%",
         }}
         onClick={() => slider?.current?.slickNext()}
       >
